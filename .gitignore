@@ -12,3 +12,16 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+
+# everything below this i added and could be wrong?
+# builds
+Build
+# but don't ignore these because https://github.com/github/gitignore/blob/master/UnrealEngine.gitignore
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# compiled stuff you can generate from source
+# (Intermediate was already listed by defualt)
+Plugins/*/Intermediate/*
